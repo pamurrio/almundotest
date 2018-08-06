@@ -27,7 +27,7 @@ public class AppTest {
     		Empleado sup = new Supervisor("Supervisor_"+i);    		    		
     		cll.addEmpleado(sup);    		
     	}
-    	Empleado dir = new Director("EL JEFE");
+    	Empleado dir = new Director("Director");
     	cll.addEmpleado(dir);
     	
     	System.out.println("---- Lista de empleados en orden de prioridad ----");
